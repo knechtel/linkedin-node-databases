@@ -5,7 +5,7 @@ module.exports = () => {
 
   router.get("/:itemId?", async (req, res) => {
     return res.render("admin/item", {});
-
+    console.log("test")
     /*
     try {
       const items = await ItemService.getAll();
